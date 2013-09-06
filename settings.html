@@ -1,0 +1,188 @@
+<html>
+<head>
+	<title>Nastavenia rozvrhu</title>
+	<meta charset="UTF-8" />
+</head>
+<style>
+body, html {background:#444; text-align:center; padding:50px 0;color: white; font-family: Arial}
+.classname {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+button.css3button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #123d54;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#08ff10 0%,
+		#5eab57);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#08ff10),
+		to(#5eab57));
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #0aff3b;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.7),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+
+</style>
+  <link rel="stylesheet" href="chosen/chosen.css" />
+<body>
+
+<span>Rozvrh pri zapnutí aplikácie</span><br><br><br>
+<select style="width: 200px ; font-family: MS Sans Serif; font-size: 8pt" name="vyber" class="chzn-select" id="trida" >
+   
+   <option value="rozvrh_tried_tr554.html">I.A&nbsp;&nbsp;I.A ŠM/ OA</option>
+   <option value="rozvrh_tried_tr747.html">I.B&nbsp;&nbsp;I.B  IaST</option>
+   <option value="rozvrh_tried_tr748.html">I.C&nbsp;&nbsp;I.C  IaST/ TL</option>
+   <option value="rozvrh_tried_tr749.html">I.D&nbsp;&nbsp;I.D  GDM</option>
+   <option value="rozvrh_tried_tr750.html">I.E&nbsp;&nbsp;I.E  GDM</option>
+   <option value="rozvrh_tried_tr751.html">I.F&nbsp;&nbsp;I.F  MPS</option>
+   <option value="rozvrh_tried_tr856.html">I.G&nbsp;&nbsp;I.G MPS</option>
+   <option value="rozvrh_tried_tr752.html">I.H&nbsp;&nbsp;I.H  MSIZ</option>
+   <option value="rozvrh_tried_tr746.html">II.A&nbsp;&nbsp;II.A  ŠM/ IaST</option>
+   <option value="rozvrh_tried_tr555.html">II.B&nbsp;&nbsp;II.B  OA</option>
+   <option value="rozvrh_tried_tr556.html">II.C&nbsp;&nbsp;II.C  IaST</option>
+   <option value="rozvrh_tried_tr557.html">II.D&nbsp;&nbsp;II.D  GDM</option>
+   <option value="rozvrh_tried_tr558.html">II.E&nbsp;&nbsp;II.E  GDM</option>
+   <option value="rozvrh_tried_tr559.html">II.F&nbsp;&nbsp;II.F  MPS</option>
+   <option value="rozvrh_tried_tr560.html">II.G&nbsp;&nbsp;II. G MPS</option>
+   <option value="rozvrh_tried_tr933.html">II. H&nbsp;&nbsp;II. H MSIZ / GDM</option>
+   <option value="rozvrh_tried_tr10.html">III.A&nbsp;&nbsp;III. A  ŠM/ USD / USK</option>
+   <option value="rozvrh_tried_tr11.html">III. B&nbsp;&nbsp;III. B OA</option>
+   <option value="rozvrh_tried_tr12.html">III. C&nbsp;&nbsp;III. C IaST</option>
+   <option value="rozvrh_tried_tr247.html">III. D&nbsp;&nbsp;III. D GDM</option>
+   <option value="rozvrh_tried_tr14.html">III. E&nbsp;&nbsp;III. E GDM</option>
+   <option value="rozvrh_tried_tr15.html">III. F&nbsp;&nbsp;III. F  MPS</option>
+   <option value="rozvrh_tried_tr651.html">III. G&nbsp;&nbsp;III. G MSIZ / MPS</option>
+   <option value="rozvrh_tried_tr17.html">IV. A&nbsp;&nbsp;IV. A  OA / ŠM</option>
+   <option value="rozvrh_tried_tr18.html">IV. B&nbsp;&nbsp;IV. B OSV / MSIZ</option>
+   <option value="rozvrh_tried_tr19.html">IV. C&nbsp;&nbsp;IV. C  GDM</option>
+   <option value="rozvrh_tried_tr21.html">IV. D&nbsp;&nbsp;IV. D  GDM</option>
+   <option value="rozvrh_tried_tr854.html">IV. E&nbsp;&nbsp;IV. E  MPS</option>
+   <option value="rozvrh_tried_tr934.html">IV. F&nbsp;&nbsp;IV. F MPS</option>
+   <option value="rozvrh_tried_tr969.html">IV. G&nbsp;&nbsp;IV. G MVaKAP / MPS</option>
+   <option value="rozvrh_tried_tr855.html">II. I&nbsp;&nbsp;II. I PvRaS</option>
+
+   <option value="rozvrh_ucitelov_vy144.htm">Ing. Elena Tibenská </option>
+   <option value="rozvrh_ucitelov_vy462.htm">Ing.Janka Sabová </option>
+   <option value="rozvrh_ucitelov_vy138.htm">Mgr. Zdenka Rovinová </option>
+   <option value="rozvrh_ucitelov_vy114.htm">Ing. Marta Arbetová </option>
+   <option value="rozvrh_ucitelov_vy908.htm">Ing. Pavol Balint </option>
+   <option value="rozvrh_ucitelov_vy117.htm">Ing. Tomáš Beličák </option>
+   <option value="rozvrh_ucitelov_vy426.htm">Ing.Marta Bieleková </option>
+   <option value="rozvrh_ucitelov_vy958.htm">PhDr.Jana Bicáková </option>
+   <option value="rozvrh_ucitelov_vy498.htm">Ing.Andrea Brocková </option>
+   <option value="rozvrh_ucitelov_vy931.htm">Mgr.Ľubomír Cmorej </option>
+   <option value="rozvrh_ucitelov_vy929.htm">Mgr.Marek Čajka </option>
+   <option value="rozvrh_ucitelov_vy633.htm">Ing. Antónia Danková </option>
+   <option value="rozvrh_ucitelov_vy451.htm">Mgr.Marián Drančák </option>
+   <option value="rozvrh_ucitelov_vy1004.htm">Ing. Lukáš Dudaš </option>
+   <option value="rozvrh_ucitelov_vy959.htm">Mgr.Alica Duláková </option>
+   <option value="rozvrh_ucitelov_vy917.htm">Mgr.Gabriela Dydňanská </option>
+   <option value="rozvrh_ucitelov_vy905.htm">Mgr.Michaela Eliášová </option>
+   <option value="rozvrh_ucitelov_vy918.htm">Mgr. Judita Faithová </option>
+   <option value="rozvrh_ucitelov_vy631.htm">Ing.Soňa Gašparová </option>
+   <option value="rozvrh_ucitelov_vy1002.htm">Mgr. Zuzana Haščáková </option>
+   <option value="rozvrh_ucitelov_vy1003.htm">Mgr. Ladislav Horváth </option>
+   <option value="rozvrh_ucitelov_vy932.htm">Mgr.Soňa Hurajtová </option>
+   <option value="rozvrh_ucitelov_vy490.htm">Mgr.Natália Jakabová </option>
+   <option value="rozvrh_ucitelov_vy968.htm">Mgr. Diana Kačalová </option>
+   <option value="rozvrh_ucitelov_vy903.htm">Ing. Kristína Kardošová </option>
+   <option value="rozvrh_ucitelov_vy129.htm">Mgr. Jana Kleinová </option>
+   <option value="rozvrh_ucitelov_vy492.htm">Mgr.Viera Kováčová </option>
+   <option value="rozvrh_ucitelov_vy783.htm">Ing.Peter Krištof </option>
+   <option value="rozvrh_ucitelov_vy547.htm">Ing.Eva Kubinová </option>
+   <option value="rozvrh_ucitelov_vy957.htm">Mgr. Lenka Kurianová </option>
+   <option value="rozvrh_ucitelov_vy447.htm">Ing.Veronika Mereiderová </option>
+   <option value="rozvrh_ucitelov_vy375.htm">RNDr.Darina Muchová </option>
+   <option value="rozvrh_ucitelov_vy374.htm">Mgr.Mária Panocová </option>
+   <option value="rozvrh_ucitelov_vy897.htm">Ing.Marián Petrík </option>
+   <option value="rozvrh_ucitelov_vy801.htm">Ing.Ľudovít Repko </option>
+   <option value="rozvrh_ucitelov_vy717.htm">Ing. Zuzana Romancová </option>
+   <option value="rozvrh_ucitelov_vy466.htm">Mgr.Katarína Sedmáková </option>
+   <option value="rozvrh_ucitelov_vy963.htm">Mgr.Peter Sisik </option>
+   <option value="rozvrh_ucitelov_vy816.htm">Mgr.Otília Staničárová </option>
+   <option value="rozvrh_ucitelov_vy778.htm">Mgr.Adela Szalayová </option>
+   <option value="rozvrh_ucitelov_vy761.htm">Mgr.Nataša Szmereková </option>
+   <option value="rozvrh_ucitelov_vy317.htm">Ing.Martina Šántová </option>
+   <option value="rozvrh_ucitelov_vy930.htm">PaedDr. Mária Šivecová </option>
+   <option value="rozvrh_ucitelov_vy442.htm">Mgr.Tomáš Špira </option>
+   <option value="rozvrh_ucitelov_vy758.htm">Ing.Marcela Šterbáková </option>
+   <option value="rozvrh_ucitelov_vy899.htm">Ing. Marek Štofa </option>
+   <option value="rozvrh_ucitelov_vy759.htm">Mgr.Zuzana Štochmalová </option>
+   <option value="rozvrh_ucitelov_vy901.htm">Mgr. Mário Švec </option>
+   <option value="rozvrh_ucitelov_vy902.htm">Mgr. Katarína Taišová </option>
+   <option value="rozvrh_ucitelov_vy636.htm">Ing. Marcel Takáč </option>
+   <option value="rozvrh_ucitelov_vy145.htm">Ing. Marcela Timková </option>
+   <option value="rozvrh_ucitelov_vy389.htm">Ing.Peter Tokoš </option>
+   <option value="rozvrh_ucitelov_vy546.htm">Ing.Gabriela Tománková </option>
+   <option value="rozvrh_ucitelov_vy146.htm">Ing. Jarmila Tomčovčíková </option>
+   <option value="rozvrh_ucitelov_vy951.htm">Mgr. Lukáš Zmuda </option>
+   <option value="rozvrh_ucitelov_vy961.htm">Mgr. Eva Zummerová </option>
+   <option value="rozvrh_ucitelov_vy991.htm">Ing. František Buranský </option>
+   <option value="rozvrh_ucitelov_vy974.htm">Mgr.Róbert Egreši </option>
+   <option value="rozvrh_ucitelov_vy910.htm">Erik Koritko </option>
+   <option value="rozvrh_ucitelov_vy916.htm">Jakub Orlej </option>
+   <option value="rozvrh_ucitelov_vy898.htm">Lukáš Pilip </option>
+   <option value="rozvrh_ucitelov_vy975.htm">Mgr.Tomáš Telepák </option>
+   <option value="rozvrh_ucitelov_vy412.htm">Ivana Tokošová </option>
+   <option value="rozvrh_ucitelov_vy952.htm">František Feke </option>
+   <option value="rozvrh_ucitelov_vy987.htm">Ing. Ivana Jasaňová </option>
+   <option value="rozvrh_ucitelov_vy988.htm">František Palgut </option>
+   <option value="rozvrh_ucitelov_vy995.htm">Gabriel Nemčík ml. </option>
+   <option value="rozvrh_ucitelov_vy997.htm">Gabriel Nemčík st. </option>
+   <option value="rozvrh_ucitelov_vy998.htm">František Sepeši </option>
+   <option value="rozvrh_ucitelov_vy999.htm">Vincent Oberle </option>
+   <option value="rozvrh_ucitelov_vy1000.htm">Peter Kačala </option>
+</select>
+ 
+<br><br><br>
+<button id="save" class="classname">Uložiť</button><br><br><br>
+<div id="status"></div>
+</body>
+  <script src="jquery.min.js" type="text/javascript"></script>
+  <script src="chosen/chosen.jquery.js" type="text/javascript"></script>
+  <script src="chosen.js"></script>
+  <script src="settings.js"></script>
+</html>

@@ -1,0 +1,36 @@
+.menu  {background-color: #80A0C0; width: 100%; height: 59px;}
+.ajx_content {background-color: #DBE6EE; width:100%;}
+.Pozadie  {background-color: #DBE6EE; cursor: default}
+.Tabulka  {background-color: #DBE6EE; text-align: center}
+.Hod {background-color: #FFFFCC}
+.VolnaHod {background-color: #DBE6EE}
+.Skola  {color: #4C85AB; font-family: MS Sans Serif; font-size: 8pt; font-weight: bold; font-style: normal; text-align: right}
+.Nadpis {color: #4C85AB; font-family: MS Sans Serif; font-size: 8pt; font-weight: bold; font-style: normal; text-align: left}
+.Popis  {color: #000000; font-family: MS Sans Serif; font-size: 8pt; font-weight: normal; font-style: normal; text-align: left}
+.HlavickaHod {background-color: #4C85AB; color: #FFFFFF; font-family: MS Sans Serif; font-size: 8pt; font-weight: bold; font-style: normal}
+.HlavickaCas {background-color: #4C85AB; color: #FFFFFF; font-family: MS Sans Serif; font-size: 8pt; font-weight: normal; font-style: normal}
+.HlavickaDni {background-color: #4C85AB; color: #FFFFFF; font-family: MS Sans Serif; font-size: 8pt; font-weight: bold; font-style: normal;  text-align: left}
+.HlavickaRok {background-color: #4C85AB; color: #DBE6EE; font-family: MS Sans Serif; font-size: 8pt; font-weight: bold; font-style: normal;  text-align: center}
+.Info {color: #4C85AB; font-family: MS Sans Serif; font-size: 8pt; text-align: left}
+.Trieda {color: #000000; font-family: MS Sans Serif; font-size: 8pt; font-weight: bold; font-style: normal}
+.Predmet {color: #0000FF; font-family: MS Sans Serif; font-size: 8pt; font-weight: bold; font-style: normal}
+.Vyucujuci {color: #008000; font-family: MS Sans Serif; font-size: 8pt; font-weight: bold; font-style: normal}
+.Ucebna {color: #800080; font-family: MS Sans Serif; font-size: 8pt; font-weight: bold; font-style: normal}
+.Skupina {color: #808080; font-family: MS Sans Serif; font-size: 8pt; font-weight: bold; font-style: normal}
+.Budova {color: #FF0000; font-family: MS Sans Serif; font-size: 8pt; font-weight: bold; font-style: normal}
+.InfText {color: #000000; font-family: MS Sans Serif; font-size: 8pt; font-weight: normal; font-style: normal}
+.Riadok1tr {text-align: center}
+.Riadok2tr {text-align: right}
+.Riadok3tr {text-align: center}
+.Riadok4tr {text-align: center}
+.Riadok5tr {text-align: center}
+.Riadok1vy {text-align: center}
+.Riadok2vy {text-align: right}
+.Riadok3vy {text-align: center}
+.Riadok4vy {text-align: center}
+.Riadok5vy {text-align: center}
+.Riadok1uc {text-align: center}
+.Riadok2uc {text-align: center}
+.Riadok3uc {text-align: center}
+.Riadok4uc {text-align: center}
+.Riadok5uc {text-align: center}
