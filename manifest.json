@@ -2,9 +2,9 @@
   "manifest_version": 2,
   "name": "Rozvrh Ostrovského",
   "description": "Rozvrh školy SOŠ Ostrovského - Dávid Kováč",
-  "version": "2.1",
+  "version": "3.0",
   "minimum_chrome_version": "23",
-  "options_page": "settings.htmll",
+  "options_page": "settings.html",
   "icons": {
     "16": "icon_16.png",
     "128": "icon_128.png"
@@ -12,7 +12,7 @@
   "app": {
       "launch": {
          "container": "tab",
-         "local_path": "rozvrh.htmll"
+         "local_path": "rozvrh.html"
       }
    },
   "offline_enabled": true,
